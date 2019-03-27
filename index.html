@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Recipe letter</title>
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+
+<body data-spy="scroll" data-target="#sk-header-nav" data-offset="80">
+
+    <!-- ナビゲーション -->
+    <header class="sk-header fixed-top">
+        <nav class="navbar navbar-expand-md navbar-light sk-header-nav">
+            <div class="container">
+                <!-- ロゴ -->
+                <a href="#" class="navbar-brand">
+                    <img src="img/logo.png" alt="" class="sk-header-logo">
+                    <p class="d-inline">Recipe Letter</p>
+                </a>
+
+                <!-- トグルボタン -->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- メニュー -->
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+
+                    <ul class="navbar-nav ml-auto" id="sk-header-nav">
+                        <!-- li.nav-item*4>a.nav-link -->
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#author" class="nav-link">Author</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- ショーケース -->
+    <section class="showcase" id="home">
+        <!-- オーバーレイ用 -->
+        <div class="showcase-overlay text-white pb-5">
+            <div class="text-center">
+                <h1 class="display-2 mt-5 showcase-title">Let's try cooking !</h1>
+                <p class="lead">実用的で簡単なレシピが毎週届きます</p>
+                <a href="#" class="btn btn-outline-secondary text-white btn-lg"><i class="fas fa-arrow-right"></i> LOOK
+                    INSIDE!</a>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- ニュースレター -->
+    <section class="bg-light py-5">
+        <h2 class="text-center text-primary mb-5">レシピレター</h2>
+        <form novalidate>
+            <div class="container">
+                <div class="form-row">
+                    <div class="col-md-5 form-group">
+                        <input type="text" class="form-control form-control-lg" placeholder="taro" required>
+                    </div>
+                    <div class="col-md-5 form-group">
+                        <input type="email" class="form-control form-control-lg" placeholder="taro@recipeletter.com"
+                            required>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block"><i class="fas fa-envelope"></i>
+                            購読する</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+
+    <!-- 推薦文 -->
+    <section class="py-5">
+        <h2 class="text-center text-primary mb-5">絶賛の声が続々！</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <div class="card text-center border-primary">
+                        <div class="card-body">
+                            <h3 class="h4 text-primary">趣味になりました</h3>
+                            <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+                        </div>
+                        <div class="card-footer text-right">taro</div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card text-center border-primary bg-primary text-light">
+                        <div class="card-body">
+                            <h3 class="h4">美味しかった</h3>
+                            <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+                        </div>
+                        <div class="card-footer text-right">eri</div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card text-center border-primary">
+                        <div class="card-body">
+                            <h3 class="h4 text-primary">簡単！</h3>
+                            <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+                        </div>
+                        <div class="card-footer text-right">mei</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center border-primary bg-primary text-light">
+                        <div class="card-body">
+                            <h3 class="h4">毎日続けられた</h3>
+                            <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+                        </div>
+                        <div class="card-footer text-right">momo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 本の紹介 -->
+    <section class="text-center bg-light py-5" id="about">
+        <div class="container">
+            <!-- 見出しブロック -->
+            <div class="row justify-content-center">
+                <div class="col-md-6 border-bottom pb-4 mb-5">
+                    <h2 class="text-primary">レシピ解説</h2>
+                    <p class="lead">
+                        この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量
+                    </p>
+                </div>
+            </div>
+
+            <!-- アコーディオン -->
+            <!-- .accordion>.card*3>.card-header+.card-body -->
+            <div class="accordion" id="about-group">
+                <!-- 1枚目 -->
+                <div class="card">
+                    <div class="card-header about-attractions-header" data-toggle="collapse"
+                        data-target="#about-inspire">
+                        <h3 class="h5"><i class="fas fa-chevron-down"></i>料理コラム</h3>
+                    </div>
+                    <div class="collapse show" id="about-inspire" data-parent="#about-group">
+                        <div class="card-body">
+                            <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れてい
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2枚目 -->
+                <div class="card">
+                    <div class="card-header about-attractions-header collapsed" data-toggle="collapse"
+                        data-target="#about-knowledge">
+                        <h3 class="h5"><i class="fas fa-chevron-down"></i>料理の基本</h3>
+                    </div>
+                    <div class="collapse" id="about-knowledge" data-parent="#about-group">
+                        <div class="card-body">
+                            <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れてい
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3枚目 -->
+                <div class="card">
+                    <div class="card-header about-attractions-header collapsed" data-toggle="collapse"
+                        data-target="#about-insight">
+                        <h3 class="h5"><i class="fas fa-chevron-down"></i>季節のレシピ</h3>
+                    </div>
+                    <div class="collapse" id="about-insight" data-parent="#about-group">
+                        <div class="card-body">
+                            <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れてい
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- 著者の紹介 -->
+    <section class="py-5 text-center" id="author">
+        <div class="container">
+            <!-- 見出しブロック -->
+            <div class="row justify-content-center">
+                <div class="col-md-6 border-bottom pb-4 mb-5">
+                    <h2 class="text-primary">著者紹介</h2>
+                    <p class="lead">
+                        この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量
+                    </p>
+                </div>
+            </div><!-- /.row -->
+
+            <!-- 著者カードブロック -->
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="card authors-card">
+                        <div class="card-body">
+                            <img src="img/person1.jpg" alt="" class="w-50 rounded-circle mb-3">
+                            <h3 class="h4">nana</h3>
+                            <p class="text-secondary">料理人</p>
+                            <p>ダミー文章、ダミー文章、ダミー文章、ダミー文章、ダミー文章</p>
+
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="p-4"><i class="fab fa-facebook fa-lg"></i></a>
+                                <a href="#" class="p-4"><i class="fab fa-twitter fa-lg"></i></a>
+                                <a href="#" class="p-4"><i class="fab fa-instagram fa-lg"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="card authors-card">
+                        <div class="card-body">
+                            <img src="img/person2.jpg" alt="" class="w-50 rounded-circle mb-3">
+                            <h3 class="h4">saya</h3>
+                            <p class="text-secondary">料理研究家</p>
+                            <p>ダミー文章、ダミー文章、ダミー文章、ダミー文章、ダミー文章</p>
+
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="p-4"><i class="fab fa-facebook fa-lg"></i></a>
+                                <a href="#" class="p-4"><i class="fab fa-twitter fa-lg"></i></a>
+                                <a href="#" class="p-4"><i class="fab fa-instagram fa-lg"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <div class="card authors-card">
+                        <div class="card-body">
+                            <img src="img/person3.jpg" alt="" class="w-50 rounded-circle mb-3">
+                            <h3 class="h4">yuki</h3>
+                            <p class="text-secondary">料理家</p>
+                            <p>ダミー文章、ダミー文章、ダミー文章、ダミー文章、ダミー文章</p>
+
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="p-4"><i class="fab fa-facebook fa-lg"></i></a>
+                                <a href="#" class="p-4"><i class="fab fa-twitter fa-lg"></i></a>
+                                <a href="#" class="p-4"><i class="fab fa-instagram fa-lg"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card authors-card">
+                        <div class="card-body">
+                            <img src="img/person4.jpg" alt="" class="w-50 rounded-circle mb-3">
+                            <h3 class="h4">ayako</h3>
+                            <p class="text-secondary">レシピブロガー</p>
+                            <p>ダミー文章、ダミー文章、ダミー文章、ダミー文章、ダミー文章</p>
+
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="p-4"><i class="fab fa-facebook fa-lg"></i></a>
+                                <a href="#" class="p-4"><i class="fab fa-twitter fa-lg"></i></a>
+                                <a href="#" class="p-4"><i class="fab fa-instagram fa-lg"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.row -->
+
+        </div><!-- /.container -->
+    </section>
+
+
+
+    <!-- お問い合わせ -->
+    <section class="bg-light py-5" id="contact">
+
+        <!--
+    .container>.row>.col-md-8+.col-md-3
+    -->
+        <div class="container">
+            <div class="row justify-content-md-between">
+                <div class="col-md-8">
+                    <h2 class="text-primary text-center mb-3">お問い合わせ</h2>
+                    <p class="lead">ダミー文章、ダミー文章、ダミー文章、ダミー文章、ダミー文章、ダミー文章ダミー文章、ダミー文章</p>
+
+                    <form>
+                        <!-- 名前 -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <!-- メールアドレス -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                            </div>
+                            <input type="email" class="form-control">
+                        </div>
+
+                        <!-- 内容 -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-pen"></i>
+                                </div>
+                            </div>
+                            <textarea rows="4" class="form-control"></textarea>
+                        </div>
+
+                        <!-- 送信ボタン -->
+                        <button type="submit" class="btn btn-primary btn-block">送信</button>
+
+                    </form>
+
+                </div>
+
+
+                <div class="col-md-3 align-self-center">
+                    <img src="img/logo.png" alt="SPACE KNOWLEDGE" class="d-block mx-auto img-fluid">
+                </div>
+
+            </div><!-- .row -->
+        </div><!-- /.container -->
+
+    </section>
+
+
+    <footer class="bg-primary text-center text-white py-3">
+        <div class="container">
+            <small>
+                <span id="year"></span>&copy; Recipe Letter
+            </small>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- 自前JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
